@@ -42,3 +42,8 @@ Here's an ordered list, with:
 5. Item three-B
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/0/03/Kismet-IMG_6007-black.jpg)
+
+'''ruby
+def my_function():
+  print("Hello from a function")
+'''end
