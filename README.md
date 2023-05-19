@@ -43,7 +43,7 @@ Here's an ordered list, with:
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/0/03/Kismet-IMG_6007-black.jpg)
 
-'''ruby
+```ruby
 def my_function():
   print("Hello from a function")
-'''
+```
