@@ -1,0 +1,33 @@
+h1, h2, p {
+    padding: 0;
+    margin: 0;
+    font: 1em/1.33 Verdana, sans-serif;
+}
+
+h1, h2 {
+    color: red;
+}
+   /* Task 1 */
+h1 {
+    font-size: 1.33em;
+}
+h2 {
+    font-size:1.17em;
+}
+   /* Task2 */
+p{
+    margin: 0 0 0.5em 0;
+}
+   /* Task3 */
+h1, h2 {margin: 10pt 0 2pt 0;}
+h1, h2 {margin: 0.83em 0 0.17em 0; }
+   /* Task4 */
+p:first-of-type {
+    font: 0.17em/1.33 Verdana, sans-serif;
+}
+   /* Task5 */
+.introduction {text-indent: 5em;}
+body {  
+      background: greenyellow repeat fixed top left;  
+}
+
