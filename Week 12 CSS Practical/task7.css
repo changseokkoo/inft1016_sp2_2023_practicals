@@ -10,5 +10,6 @@ main {color:rgb(131 148 150);}
 h1 {align-self: center;}
 .list{list-style-type: None;display: flex;align-items: center; width:100%;}
 .list2{flex-basis:25%;}
-aside{color:rgb(133 153 0);width: 10%;}
+aside{color:rgb(133 153 0);width: 10%;float:right}
 body{width:800px;}
+article{width:80%}
