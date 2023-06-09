@@ -61,4 +61,5 @@ h3{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 .pic_data_box{padding-left: 20px;padding-right: 10px;}
 .pic_data2{width:700px;float: center;}
 .pic_data_box2{padding-left: 20px;padding-right: 10px;}
-.refer{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 26.88px;}
+.refer{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 26.88px;font-style: italic;}
+.link{font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 70px;}
