@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" title="Basic" />
+
+
 </head>
+
 <body>
     <div class="wrap">
         <div class="inner"> 
@@ -18,18 +21,20 @@
 
             </header>
             <div>
-                <aside class="side">
+                <aside id="side">
                     <h2> Useful Links </h2>
+                   
                     <ul class="list_aside">
                         <li><a class="link" href="https://www.unisa.edu.au/">University of South Australia</a></li>
                         <li><a class="link" href="https://www.library.unisa.edu.au/?_gl=1*ydo8n8*_gcl_au*MTg2MTk5MTU3OS4xNjg1MzM0NjY1">UniSA Library</a></li>
                         <li><a class="link" href="https://www.youtube.com.au/">Youtube</a></li>
                         <li><a class="link" href="https://www.google.com.au/">Google</a></li>
+                        <li><button class="toggle">Toggle Theme</button></li>
                     </ul>
+                    <div class="date-time"></div>
                 </aside>
                 <article class="contents" >
                     <div class="inner_contents">
-
                         <h2>Summary</h2><br>
                         <p>&nbsp;&nbsp;&nbsp;Technology has been developed very quickly in several decades and especially storage technologies enable us to save big data at comparatively cheap price compared to the past. As a result of that, Data science is getting more important these days in different field. </p><br>
                         <p>&nbsp;&nbsp;&nbsp;Data science is known to be important part of e-commerce companies such as Amazon at the first time. There have been efforts to apply it in the manufacturing sector as well. However, it is still new in the sector. In manufacturing industry, automation has been already in progress for a long time, and now there is a competition for optimisation of the automated facilities. Automation leaves a lot of data behind. Therefore, how to use this data is the key to optimise the facilities. Also, this data is getting more important in the future because the manufacturers have high expectations for AI technology. In AI technology, dealing with data is the key to make computers learn from the data. However, understanding fundamental science is still important to develop AI technology because without it, AI cannot be learnt things from data properly.</p><br>
@@ -68,11 +73,28 @@
                             <li class="refer">The Strengthening of Iron and Steel. (n.d.). Www.totalmateria.com. http://www.totalmateria.com/articles/Art107.htm</li>
                             <li class="refer">Tripathy, A. (2019). Data Scientists Are in Short Supply, But Does Manufacturing Really Need Them? Industry Week.</li>
                         </ul>
+                        <div>
+                            <button onclick="changeImage1()">Japanese Garden Tree</button>
+                            <img id="img1" src="data.jpg" />
+                            <p id="p1">"Famous Japanese Garden Tree in Portland by Michael Matti" by Michael Matti is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/?ref=openverse.</p>
+                            <button onclick="changeImage2()">Japanese Garden Tree</button>
+                            <img id="img2" src="data.jpg" />
+                            <p id="p2">"Ceiba Tree" by LollyKnit is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</p>
+                            <button onclick="changeImage3()">Japanese Garden Tree</button>
+                            <img id="img3" src="data.jpg" />
+                            <p id="p3">"Corfu - Sept 2005 - Ancient Olive Trees" by Gareth1953 All Right Now is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</p>
+                            <button onclick="changeImage4()">Japanese Garden Tree</button>
+                            <img id="img4" src="data.jpg" />
+                            <p id="p4">"Palm tree" by F H Mira is licensed under CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/?ref=openverse.</p>
+                            <button onclick="changeImage5()">Japanese Garden Tree</button>
+                            <img id="img5" src="data.jpg" />
+                            <p id="p5">"Mangrove" by Brisbane City Council is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</p>
+                        </div>
                     </div>
                 </article>
             </div>
         </div>
     </div>
-    
 </body>
+<script src="index.js"></script>
 </html>

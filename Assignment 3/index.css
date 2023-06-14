@@ -8,20 +8,27 @@ header{height: 200px;
     background-repeat: no-repeat;
     background-color: transparent;
     }
+
+
+
 .head_contents:after{content: ''; display:black; clear:both;}
-.side{height: 6000px; width: 300px; background:rgb(215 220 220);float:left;
+#side{height: 6000px; width: 300px; background:rgb(215 220 220);float:left;
 
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     }
+
 .list_aside{
     padding-top: 20px;
     list-style-type: None;
     }
 .contents{height: 880px; width: 900px; background:white;float:left;}
+
+
 .inner_contents{padding-top:50px;height: 880px; width: 800px; background:white;margin:auto}
+
 h1{width:100%;
     font-family: "Julius Sans One", sans-serif;
     font-size:35px;
@@ -55,6 +62,7 @@ p{
     font-size: 17px;
     line-height: 26.88px;
     }
+
 h2{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 h3{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 .pic_data{width:500px;float: right;}
@@ -62,4 +70,9 @@ h3{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 .pic_data2{width:700px;float: center;}
 .pic_data_box2{padding-left: 20px;padding-right: 10px;}
 .refer{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 26.88px;font-style: italic;}
-.link{font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 70px;}
+.link{font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 70px;} 
+
+
+.dark-mode{background-color: black;height: 6880px; width: 800px}
+
+
