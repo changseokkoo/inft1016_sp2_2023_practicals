@@ -1,8 +1,26 @@
+:root {
+    --primary-color:white;
+    --secondary-color:rgb(255, 255, 255);
+    --bg-color:rgb(255, 255, 255);
+    --font-color:rgb(255, 255, 255);
+    --heading-color:rgb(255, 255, 255);
+}
+
+[data-theme="dark"] {
+    --primary-color:black;
+    --secondary-color:rgb(255, 255, 255);
+    --bg-color:rgb(255, 255, 255);
+    --font-color:rgb(255, 255, 255);
+    --heading-color:rgb(255, 255, 255);
+}
+
+
+
 
 *{margin :0; padding:0; box-sizing: border-box;}
 .inner{width:1200px; margin:auto; height:1080px; background:black}
 header{height: 200px;
-    background: white; 
+    background:black; 
     background-image: url(data_science.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +30,7 @@ header{height: 200px;
 
 
 .head_contents:after{content: ''; display:black; clear:both;}
-#side{height: 6000px; width: 300px; background:rgb(215 220 220);float:left;
+.side{height: 6000px; width: 300px; background:rgb(215 220 220);float:left;
 
     padding-bottom: 30px;
     padding-left: 30px;
@@ -23,11 +41,14 @@ header{height: 200px;
 .list_aside{
     padding-top: 20px;
     list-style-type: None;
+    background:rgb(215 220 220);
+    background-color: rgb(215 220 220)
     }
-.contents{height: 880px; width: 900px; background:white;float:left;}
+.side_bg{background:rgb(215 220 220);}
+.contents{height: 5880px; width: 900px; background:var(--primary-color);float:left;}
 
 
-.inner_contents{padding-top:50px;height: 880px; width: 800px; background:white;margin:auto}
+.inner_contents{padding-top:50px;height: 880px; width: 800px; background:var(--primary-color);margin:auto}
 
 h1{width:100%;
     font-family: "Julius Sans One", sans-serif;
@@ -71,8 +92,4 @@ h3{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 .pic_data_box2{padding-left: 20px;padding-right: 10px;}
 .refer{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 26.88px;font-style: italic;}
 .link{font-family: "Libre Baskerville", sans-serif;font-size: 17px;line-height: 70px;} 
-
-
-.dark-mode{background-color: black;height: 6880px; width: 800px}
-
 

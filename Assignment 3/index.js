@@ -29,11 +29,21 @@ function changeImage5() {
     img.src = "b5.jpg";
     p.innerHTML = "by Brisbane City Council";
 }
+
+
 var toggleButton = document.querySelector('.toggle');
-    toggleButton.addEventListener("click", () => {
-        document.querySelector('.inner_contents').classList.toggle('dark-mode');
-        // document.querySelector('.contents').classList.toggle('.dark-mode');
-    });
+const backgroundColor = document.querySelector("*");
+
+toggleButton.addEventListener("click", () => {
+  backgroundColor.style.backgroundColor = (backgroundColor.style.backgroundColor === "white" ? "black" : "white");
+});
+// var toggleButton = document.querySelector('.toggle');
+
+
+//     toggleButton.addEventListener("click", () => {
+//         document.querySelector('.inner_contents').classList.toggle('dark-mode');
+//         // document.querySelector('.contents').classList.toggle('.dark-mode');
+//     });
 
 function getCurrentDateTime() {
     var date = new Date();
