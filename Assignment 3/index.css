@@ -1,3 +1,4 @@
+/* stating variables */
 :root {
     --primary-color:white;
     --secondary-color:rgb(255, 255, 255);
@@ -6,6 +7,7 @@
     --heading-color:rgb(255, 255, 255);
 }
 
+/* for the dark mode */
 [data-theme="dark"] {
     --primary-color:black;
     --secondary-color:rgb(255, 255, 255);
@@ -28,7 +30,7 @@ header{height: 200px;
     }
 
 
-
+/* head-top design */
 .head_contents:after{content: ''; display:black; clear:both;}
 .side{height: 6000px; width: 300px; background:rgb(215 220 220);float:left;
 
@@ -38,6 +40,7 @@ header{height: 200px;
     padding-top: 30px;
     }
 
+/* left side desing */
 .list_aside{
     padding-top: 20px;
     list-style-type: None;
@@ -47,7 +50,7 @@ header{height: 200px;
 .side_bg{background:rgb(215 220 220);}
 .contents{height: 5880px; width: 900px; background:var(--primary-color);float:left;}
 
-
+/* body contents design */
 .inner_contents{padding-top:50px;height: 880px; width: 800px; background:var(--primary-color);margin:auto}
 
 h1{width:100%;
@@ -86,6 +89,8 @@ p{
 
 h2{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
 h3{color: rgb(50, 80, 80);font-family: "Libre Baskerville", sans-serif;}
+
+/* 5 images design */
 .pic_data{width:500px;float: right;}
 .pic_data_box{padding-left: 20px;padding-right: 10px;}
 .pic_data2{width:700px;float: center;}

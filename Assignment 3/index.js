@@ -1,3 +1,4 @@
+// function to change the image 1 to 5
 function changeImage1() {
     var img = document.getElementById("img1");
     var p = document.getElementById("p1");
@@ -30,20 +31,15 @@ function changeImage5() {
     p.innerHTML = "by Brisbane City Council";
 }
 
-
+// toggle buttons for the dark mode
 var toggleButton = document.querySelector('.toggle');
 const backgroundColor = document.querySelector("*");
 
 toggleButton.addEventListener("click", () => {
   backgroundColor.style.backgroundColor = (backgroundColor.style.backgroundColor === "white" ? "black" : "white");
 });
-// var toggleButton = document.querySelector('.toggle');
 
-
-//     toggleButton.addEventListener("click", () => {
-//         document.querySelector('.inner_contents').classList.toggle('dark-mode');
-//         // document.querySelector('.contents').classList.toggle('.dark-mode');
-//     });
+// showing the date
 
 function getCurrentDateTime() {
     var date = new Date();
